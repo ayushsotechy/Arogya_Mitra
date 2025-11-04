@@ -11,7 +11,7 @@ const Biography = ({ imageUrl }) => {
         <p>Biography</p>
         <h3>Who We Are</h3>
         <p>
-          Life Care Hospital is a premier healthcare provider dedicated to
+          AROGYA Mitra is a premier healthcare provider dedicated to
           offering comprehensive medical services with exceptional care. Our
           expert team of healthcare professionals is committed to delivering
           personalized treatment, ensuring that every patient receives the

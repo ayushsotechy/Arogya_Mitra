@@ -34,10 +34,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="container">
-        <div className="logo">
-          {" "}
-          <img src="/logo.png" alt="logo" className="logo-img" onClick={()=>navigateTo("/")}/>
-        </div>
+      <div className="logo" onClick={() => navigateTo("/")}>
+        <h2 className="hospital-name">Arogya Mitra</h2>
+      </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             <Link to={"/"} onClick={() =>  setShow(!show)}>Home </Link>

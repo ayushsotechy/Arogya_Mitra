@@ -13,7 +13,9 @@ const Footer = () => {
         <hr />
         <div className="content">
           <div>
-            <img src="/logo.png" alt="logo" className="logo-img" />
+            {/* <img src="/logo.png" alt="logo" className="logo-img" /> */}
+            <h2>AROGYA Mitra Hospital</h2>
+            
           </div>
           <div>
             <h4>Quick Links</h4>
@@ -25,7 +27,7 @@ const Footer = () => {
           </div>
           <div>
             <h4>Developed by</h4>
-            <p>Muhammad Fairooz</p>
+            <p>Ayush Verma & Divyansh Agarwal</p>
             <div className="social-icons">
               <a
                 href="https://fairooz2150.github.io/Fairooz/"
@@ -65,16 +67,16 @@ const Footer = () => {
             </div>
             <div>
               <MdEmail />
-              <span>lifecare@gmail.com</span>
+              <span>am@gmail.com</span>
             </div>
             <div>
             <FaLocationDot/>
-            <span>Kerala, India</span>
+            <span>Delhi, India</span>
             </div>
           </div>
         </div>
         <div className="copyright">
-        <p>&copy; {new Date().getFullYear()} Life Care Hospital</p>
+        <p>&copy; {new Date().getFullYear()} Arogya Mitra Hospital</p>
         </div>
       </footer>
     </>

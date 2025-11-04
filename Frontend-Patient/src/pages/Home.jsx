@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <>
             <Hero
-                title={"Life Care Hospital, Where Compassion Meets Excellence in Healthcare "}
+                title={"AROGYA Mitra Hospital, Where Compassion Meets Excellence in Healthcare "}
                 imageUrl={"/hero.png"}
             />
             <Biography imageUrl={"/about.png"} />

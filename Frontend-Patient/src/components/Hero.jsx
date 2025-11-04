@@ -7,11 +7,11 @@ const Hero = ({ title, imageUrl }) => {
             <div className="banner">
                 <h1>{title}</h1>
                 <p>
-                    Life Care is a state-of-the-art healthcare facility 
+                    AROGYA Mitra is a state-of-the-art healthcare facility 
                     committed to providing comprehensive services with 
                     compassion and expertise. Our team of skilled professionals
                     delivers personalized care tailored to each patient’s unique 
-                    needs. At Life Care, your well-being is our top priority,
+                    needs. At AROGYA Mitra, your well-being is our top priority,
                     ensuring a seamless journey towards optimal health and wellness.
                 </p>
             </div>
